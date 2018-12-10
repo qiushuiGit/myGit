@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+#main{
+    display: flex;
+    justify-content: space-between;
+}
+.side{
+    width: 240px;
+    height: 100vh;
+    background: #2D2D36;
+}
+.con{
+    width: calc( 100% - 240px );
+    height: 100vh;
+}
+.navTop{
+    height: 60px;
+    background: #151C31;
+}
+.logo{
+    background: #37485d;
+    height: 60px;
+    overflow: hidden;
+}
+.logo img{
+    display: block;
+
+}
+
+.navCon{
+    height: calc( 100vh - 60px );
+    overflow: hidden;
+}
+.navCon>div{
+    width: 100%;
+    height: 100%;
+    background: #000;
+}

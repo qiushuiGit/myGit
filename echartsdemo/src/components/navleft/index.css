@@ -1,0 +1,23 @@
+.navLeft{
+
+}
+.navLeft ul {
+    background: url("./icon.jpg") no-repeat 20px 0;
+}
+.navLeft ul li{
+    height: 52px;
+    line-height: 52px;
+    text-indent: 4em;
+    white-space: nowrap;
+    overflow: hidden;
+    -o-text-overflow: ellipsis;
+    text-overflow: ellipsis;
+    margin-bottom: 6px;
+}
+.navLeft ul li a{
+    text-decoration: none;
+    color: #57697e;
+}
+.navLeft ul li a.active{
+    color: orangered;
+}
